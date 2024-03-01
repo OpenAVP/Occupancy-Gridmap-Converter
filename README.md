@@ -4,17 +4,17 @@ C++ implementation for converting PCD point clouds to 2D grid maps
 
 Read SurroundOcc's occupancy point cloud prediction results and output the converted map to the `output_image` folder.
 
-Environment requirements:
-pcl opencv
+Environment requirements:<br>
+`pcl opencv`
 
-Build:
-cmake -B .
+Build:<br>
+`cmake -B .`
 
-Compile:
-make
+Compile:<br>
+`make`
 
-Run:
-./pcd2jpg
+Run:<br>
+`./pcd2jpg`
 
 Instructions:
 1. In `pcd2jpg.cpp`, modify the value of `visual_dir` to the output directory of SurroundOcc's visualization prediction results on your computer, such as "/home/suayu/SurroundOcc/visual_dir/".
